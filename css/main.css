@@ -1,0 +1,199 @@
+*{ margin: 0; padding: 0; border: none; list-style: none; text-decoration: none; color: #333333;}
+body{ padding: 0; margin: 0; border: none; list-style: none;}
+#wrap{ margin: 0 auto; font-size: 14px; color: #333333; font-family: "Arial"; list-style: none;}
+
+                                            /* header */
+#header{ width: 100%; height: 100%;}
+a{color: #ffffff;}
+.heigh{ background: url("../images/topbg.png"); background-size: 100% 100%; }
+/* nav */
+.navbar-toggle{ background: #cccccc; border: none; padding: 6px 7px; margin-top: 25px; margin-right: 5%;}
+.navbar-toggle .icon-bar{ background: #ffffff;}
+.nav1{ width: 100%; color: #ffffff; position: fixed; top: 0; left: 0; background-color: initial; z-index: 10;}
+.nav2{ width: 100%; color: #2497ea; position: fixed; top: 0; left: 0; background: #ffffff; z-index: 10; box-shadow: -1px 1px 1px #ccc;}
+.logo1{ width: 80px; height: 36px; margin: 20px 0 20px 0; float: left; background: url("../images/logo2.png") no-repeat;}
+.logo2{ width: 80px; height: 36px; margin: 20px 0 20px 0; float: left; background: url("../images/logo.png") no-repeat;}
+.nav ul li a{ font-size: 16px; margin: 16px 0 0 35px; color: #ffffff;}
+.nav ul li a:hover{ background: none;}
+.nav ul li a:link{ background: none;}
+/* top */
+.head{ width: 100%;}
+.top .title div{ line-height: 82px;}
+.top .txt{ color: #5f5f5f; font-size: 26px; margin-top: 55px;}
+.top input{ width: 277px; height: 60px; background: #1585dc; color: white; font-size: 26px; border-radius: 12px; margin-top: 50px;}
+
+                                            /* contents */
+#contents{ width: 100%; transition: all 700ms ease;}
+/* first */
+.section{ text-align: center;}
+.topic .title{ color: #333333; margin: 0 auto;}
+.topic .bg{ font-size: 48px; color: #1585dc; line-height: 10px;}
+.service{ background: #ffffff; margin: 0 auto;}
+.content_key{ margin-top: 4%; padding: 0;}
+.content_key .article{ font-size: 16px; color: #666666; padding: 3% 7% 3% 7%;}
+.content_key p{ font-size: 20px; color: #333333; padding-top: 7%; margin: 0;}
+
+/* second */
+
+.choose{ background: #efefef; margin: 0 auto;}
+.choose_image div{ margin-top: 4%;}
+.choose_image dl{ background: #ffffff; margin: 0; box-shadow: 1px 1px 5px #d2d2d3,-1px 1px 7px #dddddd; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.choose_image dl img{ width: 100%;}
+.choose_image dl dt{ font-weight: 100;}
+
+dl p{ font-size: 20px; color: #2497ea; padding: 30px 0 0 22px; margin: 0;}
+dl .article{ font-size: 16px; color: #333333; line-height: 24px; padding: 20px 22px 30px 22px;}
+
+/* third */
+.contact{ position: relative;}
+.message form input{ height: 45px; padding-left: 10px; border:1px solid #d5d4d4; border-radius: 10px; float: left; transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.message form input:nth-child(2){ margin: 20px 4% 0 0;}
+.message form input:nth-child(3){ margin:20px 0 20px 0;}
+.message form input:nth-last-child(1){ width: 40%; height: 45px; background: #1585dc; color: #ffffff; margin:3% 0 0 30%;}
+textarea{ width: 100%; height: 150px; padding: 10px 10px 10px 10px; border:1px solid #d5d4d4; border-radius: 10px; resize: none; overflow-y: auto;}
+
+/* footer */                                          /* footer */
+#footer{ width: 100%; background: #f4f4f4; padding-bottom: 56px;}
+/*.bottom{ width: 1920px; height: 500px; display: table-cell; vertical-align: middle;}*/
+.foot{ margin: auto;}
+.left{ float: left;}
+.left .title{ height:61px; color: #666666; font-size: 26px;}
+.left .bg{ width: 36px; height: 4px; background: #c7c5c5;}
+.left p{ text-align: left; font-size: 18px; color: #999999; line-height: 30px; padding-top: 20px; padding-bottom: 20px; margin: 0;}
+.right{ margin-top: 53px; border-left: 1px solid #e2e2e2; float: left;}
+.right .r1{ width: 355px; padding-left: 75px; float: left;}
+.right .r1 .img{ width: 64px; height: 88px; float: left;}
+.right .r1 p{ font-size: 18px; line-height: 30px; float: left;}
+.right .r1 p:nth-last-child(2){ color: #999999;}
+.right .r1 p:nth-last-child(1){ color: #666666;}
+.right .r2{ width: 240px; padding-left: 75px; float: left;}
+.right .r2 .img{ width: 64px; height: 58px; float: left;}
+.right .r2 p{ font-size: 18px; line-height: 30px; float: left;}
+.right .r2 p:nth-last-child(2){ color: #999999;}
+.right .r2 p:nth-last-child(1){ color: #666666;}
+
+@media(min-width: 950px){
+    .navbar-collapse,.collapse{ margin-right: 20%;}
+    .nav ul li a{ margin: 16px 0 0 60px;}
+}
+@media(max-width: 950px){
+    .navbar-collapse,.collapse{ margin-right: 16%;}
+}
+@media(max-width: 1000px){
+    dl .text{ height: 56px;}
+    dl .article{ height: 232px; line-height:20px;}
+}
+
+
+@media(min-width: 1366px){
+    .heigh{ width: 100%; height: 1080px;}
+    .head{ padding-top: 27%;}
+    .top .title div{ font-size: 48px; line-height: 82px;}
+    .top .txt{ color: #5f5f5f; font-size: 26px; margin-top: 55px;}
+    .top input{ width: 277px; height: 60px; background: #1585dc; color: white; font-size: 26px; border-radius: 12px; margin-top: 50px;}
+    .first{ padding: 100px 0 150px 0;}
+    .topic .title{ font-size: 40px;}
+    .second{ padding: 100px 0 150px 0;}
+    .third{ padding: 100px 0 100px 0; }
+}
+@media(min-width: 1200px) and (max-width: 1366px){
+    .heigh{ width: 100%; height: 700px;}
+    .head{ padding-top: 24%;}
+    .top .title div{ font-size: 40px; line-height: 62px;}
+    .top .txt{ font-size: 20px; margin-top: 35px;}
+    .top input{ width: 200px; height: 50px; font-size: 20px; margin-top: 30px;}
+    .first{ padding: 80px 0 80px 0;}
+    .topic .title{ font-size: 34px;}
+    .second{ padding: 80px 0 80px 0;}
+    .third{ padding: 80px 0 80px 0; }
+    .left p{ font-size: 16px;}
+}
+@media(min-width: 992px) and (max-width: 1200px){
+    .heigh{ width: 100%; height: 668px;}
+    .head{ padding-top: 29%;}
+    .top .title div{ font-size: 30px; line-height: 52px;}
+    .top .txt{ color: #5f5f5f; font-size: 18px; margin-top: 45px;}
+    .top input{ width: 200px; font-size: 18px;}
+    .first{ padding: 70px 0;}
+    .topic .title{ font-size: 30px;}
+    .content_key p{ font-size: 18px;}
+    .content_key .article{ font-size: 14px;}
+    .second{ padding: 70px 0 70px 0;}
+    dt .text{ font-size: 18px;}
+    dl .article{ font-size: 14px;}
+    .third{ padding: 70px 0 70px 0; }
+    .left p{ font-size: 14px;}
+}
+@media(min-width: 820px) and (max-width: 992px){
+    .heigh{ width: 100%; height: 568px;}
+    .head{ padding-top: 27%;}
+    .top .title div{ font-size: 25px; line-height: 52px;}
+    .top .txt{ color: #5f5f5f; font-size: 16px; margin-top: 30px;}
+    .top input{ width: 160px; font-size: 16px; height: 50px; margin-top: 30px;}
+    .first{ padding: 60px 0;}
+    .topic .title{ font-size: 25px;}
+    .second{ padding: 60px 0 60px 0;}
+    dt .text{ font-size: 16px; padding: 20px 5px 0 5px;}
+    dl .article{ font-size: 14px;}
+    .content_key p{ font-size: 18px;}
+    .content_key .article{ font-size: 14px;}
+    .third{ padding: 60px 0 60px 0; }
+    .message form input:nth-last-child(1){ height: 40px; margin: 6% 0 0 30%;}
+    .left .title{ font-size: 22px;}
+    .left p{ font-size: 14px;}
+}
+@media(min-width: 500px) and (max-width: 820px){
+    .heigh{ width: 100%; height: 365px;}
+    .head{ padding-top: 22%;}
+    .top .title div{ font-size: 18px; line-height: 32px;}
+    .top .txt{ color: #5f5f5f; font-size: 14px; margin-top: 20px;}
+    .top input{ width: 120px; font-size: 14px; height: 40px; margin-top: 15px;}
+    .first{ padding: 60px 0;}
+    .topic .title{ font-size: 25px;}
+    .content_key p{ font-size: 18px;}
+    .content_key .article{ font-size: 14px;}
+    .second{ padding: 60px 0 60px 0;}
+    dt .text{ font-size: 16px; padding: 20px 5px 0 5px;}
+    dl .article{ font-size: 14px; height: auto;}
+    .third{ padding: 60px 0 60px 0; }
+    .message form input:nth-last-child(1){ height: 40px; margin: 7% 0 0 30%}
+    .left .title{ font-size: 20px;}
+    .left p{ font-size: 14px;}
+    .right .r1 p{ font-size: 16px; margin: 0;}
+    .right .r2 p{ font-size: 16px; margin: 0;}
+    dl .last-article{ padding: 20px 22px 10px 22px;}
+    .logo1{ width: 60px; height: 27px; background: url("../images/logo3.png") no-repeat; margin: 15px 0;}
+    .logo2{ width: 60px; height: 27px; background: url("../images/logo4.png") no-repeat; margin: 15px 0;}
+    .navbar-toggle{ margin-top: 15px;}
+}
+@media(max-width: 500px){
+    .heigh{ width: 100%; height: auto;}
+    .head{ padding-top: 25%;}
+    .top .title div{ font-size: 14px; line-height: 22px; width: 200px; margin: 0 auto;}
+    .top .txt{ color: #5f5f5f; font-size: 12px; margin-top: 5px;}
+    .top input{ width: 80px; font-size: 12px; height: 20px; margin: 10px 0 30px 0;}
+    .first{ padding: 50px 0;}
+    .topic .title{ font-size: 20px;}
+    .content_key p{ font-size: 14px;}
+    .content_key .article{ font-size: 12px;}
+    .second{ padding: 50px 0 50px 0;}
+    dt .text{ font-size: 16px; padding: 20px 5px 0 5px; height: auto;}
+    dl .article{ font-size: 12px; height: auto;}
+    .third{ padding: 50px 0 50px 0; }
+    .message form input:nth-last-child(1){ height: 25px; font-size: 12px; padding: 0; margin: 8% 0 0 30%}
+    .message form input{ height: 38px;}
+    textarea{ height: 100px;}
+    .left .title{ font-size: 18px;}
+    .left p{ font-size: 12px;}
+    .right .r1 p{ font-size: 14px; line-height: 20px; margin: 0;}
+    .right .r2 p{ font-size: 14px; line-height: 20px; margin: 0;}
+    .form-control{ font-size: 12px;}
+    .logo1{ width: 60px; height: 27px; background: url("../images/logo3.png") no-repeat; margin: 15px 0;}
+    .logo2{ width: 60px; height: 27px; background: url("../images/logo4.png") no-repeat; margin: 15px 0;}
+    .navbar-toggle{ margin-top: 15px;}
+    .right{ border-left: none;}
+    .right .r1{ padding-left: 0;}
+    .right .r2{ padding-left: 0;}
+    .navbar-collapse,.collapse{ margin-right: 0;}
+    .nav ul li a{ font-size: 14px; margin: 0;}
+}
